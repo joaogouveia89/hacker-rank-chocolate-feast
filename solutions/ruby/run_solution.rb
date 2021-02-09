@@ -28,12 +28,11 @@ input_files.each do |input_file|
 		data.each do |d|
 			output << d.to_i
 		end
-
 		if response === output
 			puts ("INPUT " + output_number.to_s).green
 		else
 			puts ("INPUT " + output_number.to_s).red
-			puts(response)
+			#puts(response)
 		end
 	end
 end
