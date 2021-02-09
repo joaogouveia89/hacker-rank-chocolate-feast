@@ -8,8 +8,8 @@ public class ChocolateFeast{
         while(wrappers >= m){
             aditPieces = (int) Math.floor(wrappers / m);
             remain = wrappers - aditPieces * m;
-            ate = ate + aditPieces;
-            remain = remain + aditPieces;
+            ate += aditPieces;
+            remain += aditPieces;
             wrappers = remain;
         }
         
