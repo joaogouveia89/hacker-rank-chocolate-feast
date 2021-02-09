@@ -10,7 +10,7 @@ def chocolate_feast n, c, m
 
 		ate = ate + adit_pieces
 
-		remain = remain + (wrappers / m).floor
+		remain = remain + adit_pieces
 
 		wrappers = remain
 	end
